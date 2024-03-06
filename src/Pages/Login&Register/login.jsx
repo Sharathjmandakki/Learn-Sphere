@@ -35,8 +35,8 @@ export default function Login() {
     <div className='flex justify-center'><h1 className='text-fuchsia-400 font-extrabold mb-5'style={{fontSize:'30px', fontFamily:'cursive'}}>Login Page</h1></div>
 <div id='error' className='min-h-2 text-red-500'></div>
     <div class="mb-5">
-        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email / username</label>
-        <input type="text" value={email} id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name / name@flowbite.com" required onChange={e=>setEmail(e.target.value)}/>
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your username / email</label>
+        <input type="text" value={email} id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name / name@gmail.com" required onChange={e=>setEmail(e.target.value)}/>
     </div>
     <div class="mb-5">
         <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
